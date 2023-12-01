@@ -14,4 +14,4 @@ class Car:
         return self.year
 
     def __str__(self):
-        return f"{self.name} {self.model} {self.year}"
+        return f"{self.name} : {self.model} - {self.year}"
