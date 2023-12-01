@@ -1,9 +1,7 @@
-from models import Car
-
 import json
+import pprint
 
-from pprint import pprint
-
+from models import Car
 
 print("Examining Car...")
 junk_car_object = Car("Nonya", "Sedan", 2019)
@@ -18,4 +16,4 @@ print(
     "parsed_junk_car_string:",
     type(parsed_junk_car_string),
 )
-pprint(parsed_junk_car_string),
+pprint.pprint(parsed_junk_car_string),
